@@ -6,7 +6,11 @@ const hbBar = document.getElementById('nav')
 hbBtn.addEventListener('click', () => {
     hbBtn.classList.toggle('open')
 
+    // Hide to show
     hbNav.classList.toggle('mobilemenu-closed')
     hbNav.classList.toggle('mobilemenu-opened')
+    
+    // Blur to solid
     hbBar.classList.toggle('navbdblur')
+    hbBar.classList.toggle('navbgsolid')
 })
