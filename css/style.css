@@ -1,12 +1,7 @@
 /*
-! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
-*/
-
-/*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
-
 *,
 ::before,
 ::after {
@@ -19,7 +14,6 @@
   border-color: #e5e7eb;
   /* 2 */
 }
-
 ::before,
 ::after {
   --tw-content: '';
@@ -31,7 +25,6 @@
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
 */
-
 html {
   line-height: 1.5;
   /* 1 */
@@ -50,7 +43,6 @@ html {
 1. Remove the margin in all browsers.
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
-
 body {
   margin: 0;
   /* 1 */
@@ -63,7 +55,6 @@ body {
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
 */
-
 hr {
   height: 0;
   /* 1 */
@@ -76,7 +67,6 @@ hr {
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
-
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
@@ -85,7 +75,6 @@ abbr:where([title]) {
 /*
 Remove the default font size and weight for headings.
 */
-
 h1,
 h2,
 h3,
@@ -99,7 +88,6 @@ h6 {
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
-
 a {
   color: inherit;
   text-decoration: inherit;
@@ -108,7 +96,6 @@ a {
 /*
 Add the correct font weight in Edge and Safari.
 */
-
 b,
 strong {
   font-weight: bolder;
@@ -118,7 +105,6 @@ strong {
 1. Use the user's configured `mono` font family by default.
 2. Correct the odd `em` font sizing in all browsers.
 */
-
 code,
 kbd,
 samp,
@@ -132,7 +118,6 @@ pre {
 /*
 Add the correct font size in all browsers.
 */
-
 small {
   font-size: 80%;
 }
@@ -140,7 +125,6 @@ small {
 /*
 Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
-
 sub,
 sup {
   font-size: 75%;
@@ -148,11 +132,9 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
-
 sub {
   bottom: -0.25em;
 }
-
 sup {
   top: -0.5em;
 }
@@ -162,7 +144,6 @@ sup {
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 3. Remove gaps between table borders by default.
 */
-
 table {
   text-indent: 0;
   /* 1 */
@@ -177,7 +158,6 @@ table {
 2. Remove the margin in Firefox and Safari.
 3. Remove default padding in all browsers.
 */
-
 button,
 input,
 optgroup,
@@ -200,7 +180,6 @@ textarea {
 /*
 Remove the inheritance of text transform in Edge and Firefox.
 */
-
 button,
 select {
   text-transform: none;
@@ -210,7 +189,6 @@ select {
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Remove default button styles.
 */
-
 button,
 [type='button'],
 [type='reset'],
@@ -226,7 +204,6 @@ button,
 /*
 Use the modern Firefox focus style for all focusable elements.
 */
-
 :-moz-focusring {
   outline: auto;
 }
@@ -234,7 +211,6 @@ Use the modern Firefox focus style for all focusable elements.
 /*
 Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
 */
-
 :-moz-ui-invalid {
   box-shadow: none;
 }
@@ -242,7 +218,6 @@ Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/
 /*
 Add the correct vertical alignment in Chrome and Firefox.
 */
-
 progress {
   vertical-align: baseline;
 }
@@ -255,7 +230,6 @@ Correct the cursor style of increment and decrement buttons in Safari.
 ::-webkit-outer-spin-button {
   height: auto;
 }
-
 /*
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
@@ -267,7 +241,6 @@ Correct the cursor style of increment and decrement buttons in Safari.
   outline-offset: -2px;
   /* 2 */
 }
-
 /*
 Remove the inner padding in Chrome and Safari on macOS.
 */
@@ -275,7 +248,6 @@ Remove the inner padding in Chrome and Safari on macOS.
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
 /*
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Change font properties to `inherit` in Safari.
@@ -287,7 +259,6 @@ Remove the inner padding in Chrome and Safari on macOS.
   font: inherit;
   /* 2 */
 }
-
 /*
 Add the correct display in Chrome and Safari.
 */
@@ -295,7 +266,6 @@ Add the correct display in Chrome and Safari.
 summary {
   display: list-item;
 }
-
 /*
 Removes the default spacing and border for appropriate elements.
 */
@@ -315,16 +285,13 @@ p,
 pre {
   margin: 0;
 }
-
 fieldset {
   margin: 0;
   padding: 0;
 }
-
 legend {
   padding: 0;
 }
-
 ol,
 ul,
 menu {
@@ -336,7 +303,6 @@ menu {
 /*
 Prevent resizing textareas horizontally by default.
 */
-
 textarea {
   resize: vertical;
 }
@@ -345,21 +311,18 @@ textarea {
 1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
-
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
   /* 2 */
 }
-
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
   /* 2 */
 }
-
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
@@ -371,7 +334,6 @@ textarea::placeholder {
 /*
 Set the default cursor for buttons.
 */
-
 button,
 [role="button"] {
   cursor: pointer;
@@ -380,7 +342,6 @@ button,
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
-
 :disabled {
   cursor: default;
 }
@@ -390,7 +351,6 @@ Make sure disabled buttons don't get the pointer cursor.
 2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
    This can trigger a poorly considered lint error in some tools but is included by design.
 */
-
 img,
 svg,
 video,
@@ -408,7 +368,6 @@ object {
 /*
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
-
 img,
 video {
   max-width: 100%;
@@ -418,7 +377,6 @@ video {
 /*
 Ensure the default browser behavior of the `hidden` attribute.
 */
-
 [hidden] {
   display: none;
 }
@@ -467,53 +425,44 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-
 .hidden {
   display: none;
 }
 
 /* IMPORTANT */
-
 html {
   scroll-behavior: smooth;
 }
 
 /* Nav */
-
 .nav {
   width: 100%;
 }
-
 @media (min-width: 640px) {
   .nav {
     max-width: 640px;
   }
 }
-
 @media (min-width: 768px) {
   .nav {
     max-width: 768px;
   }
 }
-
 @media (min-width: 1024px) {
   .nav {
     max-width: 1024px;
   }
 }
-
 @media (min-width: 1280px) {
   .nav {
     max-width: 1280px;
   }
 }
-
 @media (min-width: 1536px) {
   .nav {
     max-width: 1536px;
   }
 }
-
 .nav {
   position: fixed;
   top: 0px;
@@ -523,69 +472,61 @@ html {
   --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
-
 @media (min-width: 768px) {
   .nav {
     padding-left: 3rem;
     padding-right: 3rem;
   }
 }
-
 @media (min-width: 1024px) {
   .nav {
     padding-left: 8rem;
     padding-right: 8rem;
   }
 }
-
 @media (min-width: 1280px) {
   .nav {
     padding-left: 16rem;
     padding-right: 16rem;
   }
 }
-
-.navcontainer {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.navbdblur {
+.nav-backdrop-blur {
   --tw-backdrop-blur: blur(12px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
-
-.navbgsolid {
+.nav-bg-solid {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
   --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-/* Theme */
+/* Theme Constructor */
 
 .logo {
   padding: 0.5rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(52 211 153 / var(--tw-text-opacity));
   text-shadow: 0 0 20px #34d399;
 }
-
 .glow {
   text-shadow: 0 0 20px #34d399;
 }
-
 .background {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
 .link {
   text-align: center;
   font-size: 1.125rem;
@@ -593,31 +534,60 @@ html {
   --tw-text-opacity: 1;
   color: rgb(52 211 153 / var(--tw-text-opacity));
 }
-
 @media (min-width: 768px) {
   .link {
     text-align: left;
   }
 }
+.solidbtn {
+  border-radius: 0.375rem;
+  border-width: 1px;
+  border-color: transparent;
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 211 153 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+.solidbtn:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(52 211 153 / var(--tw-border-opacity));
+  background-color: transparent;
+  --tw-text-opacity: 1;
+  color: rgb(52 211 153 / var(--tw-text-opacity));
+}
+.paragraph-grey {
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+@media (min-width: 768px) {
+  .paragraph-grey {
+    text-align: left;
+  }
+}
 
 /* Nav Buttons */
-
 .navbtns {
   display: none;
 }
-
 .navbtns > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
-
 @media (min-width: 768px) {
   .navbtns {
     display: flex;
   }
 }
-
 .navbtn {
   padding-top: 0.5rem;
   --tw-text-opacity: 1;
@@ -628,41 +598,12 @@ html {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
 }
-
 .navbtn:hover {
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-text-opacity: 1;
   color: rgb(52 211 153 / var(--tw-text-opacity));
 }
-
-.navsolid {
-  border-radius: 0.375rem;
-  border-width: 1px;
-  border-color: transparent;
-  --tw-bg-opacity: 1;
-  background-color: rgb(52 211 153 / var(--tw-bg-opacity));
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
-}
-
-.navsolid:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(52 211 153 / var(--tw-border-opacity));
-  background-color: transparent;
-  --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
-}
-
 .hbbutton-mobile {
   padding-top: 0.5rem;
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
@@ -671,41 +612,34 @@ html {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
 }
-
 .hbbutton-mobile:hover {
   --tw-text-opacity: 1;
   color: rgb(52 211 153 / var(--tw-text-opacity));
 }
 
 /* Hamburger */
-
 .hbmenubtn {
   display: flex;
   padding-top: 0.5rem;
 }
-
 @media (min-width: 768px) {
   .hbmenubtn {
     display: none;
   }
-
   .mobilenav {
     display: none;
   }
 }
-
 .mobilemenu {
   margin-top: 1rem;
   flex-direction: column;
   align-items: center;
 }
-
 .mobilemenu > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
-
 .mobilemenu {
   border-radius: 0.375rem;
   --tw-bg-opacity: 1;
@@ -713,17 +647,14 @@ html {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 .mobilemenu-opened {
   display: flex;
 }
-
 .mobilemenu-closed {
   display: none;
 }
 
 /* Hamburger Custom CSS */
-
 .hbmenubtn {
   cursor: pointer;
   width: 24px;
@@ -731,7 +662,6 @@ html {
   transition: all 0.25s;
   position: relative;
 }
-
 .hbtop,
 .hbmiddle,
 .hbbottom {
@@ -744,34 +674,27 @@ html {
   transform: rotate(0);
   transition: all 0.5s;
 }
-
 .hbmiddle {
   transform: translateY(7px);
 }
-
 .hbbottom {
   transform: translateY(14px);
 }
 
 /* Open and Closed state */
-
 .open {
   transform: rotate(90deg);
   transform: translateY(0px);
 }
-
 .open .hbtop {
   transform:  rotate(45deg) translateY(6px) translate(6px);
 }
-
 .open .hbmiddle {
   display: none;
 }
-
 .open .hbbottom {
   transform:  rotate(-45deg) translateY(6px) translate(-6px);
 }
-
 /* Hero Section */
 
 .herocontainer {
@@ -782,18 +705,15 @@ html {
   flex-direction: column-reverse;
   align-items: center;
 }
-
 .herocontainer > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0px * var(--tw-space-y-reverse));
 }
-
 .herocontainer {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
 @media (min-width: 768px) {
   .herocontainer {
     flex-direction: row;
@@ -801,47 +721,40 @@ html {
     padding-right: 3rem;
   }
 }
-
 @media (min-width: 1024px) {
   .herocontainer {
     padding-left: 8rem;
     padding-right: 8rem;
   }
 }
-
 @media (min-width: 1280px) {
   .herocontainer {
     padding-left: 16rem;
     padding-right: 16rem;
   }
 }
-
 .heroleft {
   margin-bottom: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .heroleft > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
-
 @media (min-width: 768px) {
   .heroleft {
     width: 50%;
   }
 }
-
 .heroheader {
   text-align: center;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 700;
 }
-
 @media (min-width: 768px) {
   .heroheader {
     text-align: left;
@@ -849,7 +762,6 @@ html {
     line-height: 1;
   }
 }
-
 .herofission {
   text-align: center;
   font-size: 2.25rem;
@@ -858,7 +770,6 @@ html {
   --tw-text-opacity: 1;
   color: rgb(52 211 153 / var(--tw-text-opacity));
 }
-
 @media (min-width: 768px) {
   .herofission {
     text-align: left;
@@ -866,29 +777,12 @@ html {
     line-height: 1;
   }
 }
-
 .herofission {
   text-shadow: 0 0 40px #34d399;
 }
-
-.herop {
-  text-align: center;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-@media (min-width: 768px) {
-  .herop {
-    text-align: left;
-  }
-}
-
 .herobutton {
   margin-top: 2.5rem;
 }
-
 @media (min-width: 768px) {
   .herobutton {
     display: none;
@@ -896,42 +790,35 @@ html {
 }
 
 /* About Section */
-
-.aboutcontainer {
+.about-container {
   width: 100%;
 }
-
 @media (min-width: 640px) {
-  .aboutcontainer {
+  .about-container {
     max-width: 640px;
   }
 }
-
 @media (min-width: 768px) {
-  .aboutcontainer {
+  .about-container {
     max-width: 768px;
   }
 }
-
 @media (min-width: 1024px) {
-  .aboutcontainer {
+  .about-container {
     max-width: 1024px;
   }
 }
-
 @media (min-width: 1280px) {
-  .aboutcontainer {
+  .about-container {
     max-width: 1280px;
   }
 }
-
 @media (min-width: 1536px) {
-  .aboutcontainer {
+  .about-container {
     max-width: 1536px;
   }
 }
-
-.aboutcontainer {
+.about-container {
   margin-left: auto;
   margin-right: auto;
   margin-top: 14rem;
@@ -940,30 +827,25 @@ html {
   flex-direction: column;
   align-items: center;
 }
-
-.aboutcontainer > :not([hidden]) ~ :not([hidden]) {
+.about-container > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
-
-.aboutcontainer {
+.about-container {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
-.aboutbox {
+.about-box {
   display: flex;
   flex-direction: column;
 }
-
-.aboutbox > :not([hidden]) ~ :not([hidden]) {
+.about-box > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
-
-.aboutbox {
+.about-box {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
@@ -971,14 +853,12 @@ html {
   --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
-
 @media (min-width: 768px) {
-  .aboutbox {
+  .about-box {
     width: 66.666667%;
   }
 }
-
-.abouth {
+.about-h {
   text-align: left;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -989,12 +869,20 @@ html {
   text-shadow: 0 0 20px #34d399;
 }
 
-.whygrid {
+/* Why Us Sub Section */
+.why-h {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.why-grid {
   display: flex;
   flex-direction: column;
 }
-
-.whygrid > :not([hidden]) ~ :not([hidden]) {
+.why-grid > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0px * var(--tw-space-x-reverse));
   margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
@@ -1002,14 +890,12 @@ html {
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-
 @media (min-width: 1280px) {
-  .whygrid {
+  .why-grid {
     flex-direction: row;
     justify-content: center;
   }
-
-  .whygrid > :not([hidden]) ~ :not([hidden]) {
+  .why-grid > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
@@ -1018,17 +904,32 @@ html {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 }
+.why-box > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.why-box {
+  border-radius: 0.5rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(51 65 85 / var(--tw-border-opacity));
+  padding: 0.75rem;
+}
+.why-space > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
 
 /* Plans Section */
-
-.plancontainer {
+.plan-container {
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
-.plancontainer > :not([hidden]) ~ :not([hidden]) {
+.plan-container > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0px * var(--tw-space-x-reverse));
   margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
@@ -1036,18 +937,15 @@ html {
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-
-.plancontainer {
+.plan-container {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
 @media (min-width: 768px) {
-  .plancontainer {
+  .plan-container {
     flex-direction: row;
   }
-
-  .plancontainer > :not([hidden]) ~ :not([hidden]) {
+  .plan-container > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
@@ -1058,18 +956,15 @@ html {
 }
 
 /* Plans */
-
 .plan {
   display: flex;
   flex-direction: column;
 }
-
 .plan > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
-
 .plan {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
@@ -1086,78 +981,39 @@ html {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
 }
-
 .plan:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
 @media (min-width: 768px) {
   .plan {
     width: 16rem;
   }
 }
-
-.bestplan {
-  display: flex;
-  flex-direction: column;
-}
-
-.bestplan > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
-.bestplan {
-  border-radius: 0.5rem;
+.plan-best {
   --tw-bg-opacity: 1;
   background-color: rgb(52 211 153 / var(--tw-bg-opacity));
-  padding: 1.5rem;
-  text-align: center;
   --tw-text-opacity: 1;
   color: rgb(51 65 85 / var(--tw-text-opacity));
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
 }
-
-.bestplan:hover {
+.plan-best:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) {
-  .bestplan {
-    width: 16rem;
-  }
-}
-
 /* Plan Contents */
 
-.planheader {
+.plan-header {
   margin: 0.5rem;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
 }
-
-.bestplanbtn {
+.plan-btn {
   border-radius: 0.375rem;
   border-width: 1px;
   border-color: transparent;
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  padding: 0.5rem;
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
@@ -1165,37 +1021,30 @@ html {
   transition-duration: 200ms;
 }
 
-.bestplanbtn:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(51 65 85 / var(--tw-border-opacity));
-  background-color: transparent;
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.planbtn {
-  border-radius: 0.375rem;
-  border-width: 1px;
-  border-color: transparent;
+/* Plan Buttons */
+.plan-btn-col {
   --tw-bg-opacity: 1;
   background-color: rgb(52 211 153 / var(--tw-bg-opacity));
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
 }
-
-.planbtn:hover {
+.plan-btn-col:hover {
   --tw-border-opacity: 1;
   border-color: rgb(52 211 153 / var(--tw-border-opacity));
   background-color: transparent;
   --tw-text-opacity: 1;
   color: rgb(52 211 153 / var(--tw-text-opacity));
+}
+.plan-btn-best {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.plan-btn-best:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(51 65 85 / var(--tw-border-opacity));
+  background-color: transparent;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }

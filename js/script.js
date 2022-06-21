@@ -11,6 +11,6 @@ hbBtn.addEventListener('click', () => {
     hbNav.classList.toggle('mobilemenu-opened')
     
     // Blur to solid
-    hbBar.classList.toggle('navbdblur')
-    hbBar.classList.toggle('navbgsolid')
+    hbBar.classList.toggle('nav-backdrop-blur')
+    hbBar.classList.toggle('nav-bg-solid')
 })

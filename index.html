@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
 
-    <!-- For Luz's Testing  --> 
-    <link href="./tailwindcss_stuffs/output.css" rel="stylesheet">
+    <!-- For Luz's Testing
+    <link href="./tailwindcss_stuffs/output.css" rel="stylesheet"> --> 
 
     <title>FissionHost</title>
 </head>
 <body class="background">
 
     <!-- Navbar -->
-    <header id="nav" class="nav navbdblur">
-        <div class="navcontainer">
+    <header id="nav" class="nav nav-backdrop-blur">
+        <div class="nav-container">
             <!-- FissionHost -->
             <div>
                 <p class="logo">FissionHost</p>
@@ -25,7 +25,7 @@
                 <a href="#hero" class="navbtn">Home</a>
                 <a href="#about" class="navbtn">About Us</a>
                 <a href="#" class="navbtn">Go to Panel</a>
-                <a href="#plans" class="navsolid">Rent a Server</a>
+                <a href="#plans" class="solidbtn">Rent a Server</a>
             </div>
             <!-- Hamburgeer Icon -->
             <button id="menu-btn" class="hbmenubtn">
@@ -50,12 +50,12 @@
         <div class="herocontainer">
             <!-- Button -->
             <div class="herobutton">
-                <a href="#plans" class="navsolid">Rent a Server</a>
+                <a href="#plans" class="solidbtn">Rent a Server</a>
             </div>
             <!-- Header -->
             <div class="heroleft">
                 <h1 class="heroheader">Looking for an affordable hosting? <span class="herofission">FissionHost</span> is the answer.</h1>
-                <p class="herop">We at FissionHost are dedicated to provide you a good hosting service with the most affordable price possible.</p>
+                <p class="paragraph-grey">We at FissionHost are dedicated to provide you a good hosting service with the most affordable price possible.</p>
             </div>
             <!-- There should be an image here. And It has to be hidden for mobile users -->
             <div>
@@ -67,16 +67,38 @@
 
     <!-- About -->
     <section id="about">
-        <div class="aboutcontainer">
-            <div class="aboutbox">
-                <h2 class="abouth">About us</h2>
-                <p class="herop">Fissionhost was started as a cheap alternative to expensive vps's and other hosts, and we will stick that way, as we believe in cheap premium hosting! We here at fissionhost value your privacy! To read our privacy policy visit <a href="https://privacy.fissionhost.org" target="_blank" class="link">https://privacy.fissionhost.org</a>. Fissionhost was started in 2022, and was made with the help of Pigioty, Mr.Rin, and our wonderful contributors!</p>
-                <h2 class="abouth">Why us?</h2>
-                <div class="whygrid">
-                    <!-- Add stuffs here Pigioty :))) -->
-                    <p class="herop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quod cum! Temporibus, nostrum et sunt dolorum animi perspiciatis qui?</p>
-                    <p class="herop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quod cum! Temporibus, nostrum et sunt dolorum animi perspiciatis qui?</p>
-                    <p class="herop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quod cum! Temporibus, nostrum et sunt dolorum animi perspiciatis qui?</p>
+        <div class="about-container">
+            <div class="about-box">
+                <div class="why-space">
+                    <h2 class="about-h">About us</h2>
+                    <p class="paragraph-grey">Fissionhost was started as a cheap alternative to expensive vps's and other hosts, and we will stick that way, as we believe in cheap premium hosting! We here at fissionhost value your privacy! To read our privacy policy visit <a href="https://privacy.fissionhost.org" target="_blank" class="link">https://privacy.fissionhost.org</a>. Fissionhost was started in 2022, and was made with the help of Pigioty, Mr.Rin, and our wonderful contributors!</p>
+                </div>
+                <div class="why-space">
+                    <h2 class="about-h">Why us?</h2>
+                    <div class="why-grid">
+                        <!-- Add stuffs here Pigioty, I'm using Lorem here because idk what the words will be -->
+                        <div class="why-box">
+                            <!-- Icon Here -->
+
+                            <!-- Icon Here -->
+                            <h2 class="why-h">Sample1</h2>
+                            <p class="paragraph-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quod cum! Temporibus, nostrum et sunt dolorum animi perspiciatis qui?</p>
+                        </div>
+                        <div class="why-box">
+                            <!-- Icon Here -->
+                            
+                            <!-- Icon Here -->
+                            <h2 class="why-h">Sample1</h2>
+                            <p class="paragraph-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quod cum! Temporibus, nostrum et sunt dolorum animi perspiciatis qui?</p>
+                        </div>
+                        <div class="why-box">
+                            <!-- Icon Here -->
+                            
+                            <!-- Icon Here -->
+                            <h2 class="why-h">Sample1</h2>
+                            <p class="paragraph-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at quod cum! Temporibus, nostrum et sunt dolorum animi perspiciatis qui?</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,10 +107,10 @@
 
     <!-- Plans -->
     <section id="plans">
-        <div class="plancontainer">
+        <div class="plan-container">
             <!-- Best Plan -->
-            <div class="bestplan">
-                <p class="planheader">Best Value</p>
+            <div class="plan plan-best">
+                <p class="plan-header">Best Value</p>
                 <div>
                     <p>72GB Ram</p>
                     <p>5000% CPU</p>
@@ -96,11 +118,11 @@
                     <p>50 Databases</p>
                     <p>20 Backups</p>
                 </div>
-                <a href="#" class="bestplanbtn">Rent ($69)</a>
+                <a href="#" class="plan-btn plan-btn-best">Rent ($69)</a>
             </div>
             <!-- Plan -->
             <div class="plan">
-                <p class="planheader">Cheapest Plan</p>
+                <p class="plan-header">Cheapest Plan</p>
                 <div>
                     <p>72GB Ram</p>
                     <p>5000% CPU</p>
@@ -108,11 +130,11 @@
                     <p>50 Databases</p>
                     <p>20 Backups</p>
                 </div>
-                <a href="#" class="planbtn">Rent ($420)</a>
+                <a href="#" class="plan-btn plan-btn-col">Rent ($420)</a>
             </div>
             <!-- Plan -->
             <div class="plan">
-                <p class="planheader">Best Deal</p>
+                <p class="plan-header">Best Deal</p>
                 <div>
                     <p>72GB Ram</p>
                     <p>5000% CPU</p>
@@ -120,7 +142,7 @@
                     <p>50 Databases</p>
                     <p>20 Backups</p>
                 </div>
-                <a href="#" class="planbtn">Rent ($420)</a>
+                <a href="#" class="plan-btn plan-btn-col">Rent ($420)</a>
             </div>
         </div>
     </section>
