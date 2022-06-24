@@ -789,10 +789,11 @@ html {
 .hero-container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 6rem;
+  margin-top: 9rem;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
+  justify-content: space-between;
 }
 
 .hero-container > :not([hidden]) ~ :not([hidden]) {
@@ -844,6 +845,26 @@ html {
 @media (min-width: 768px) {
   .hero-left {
     width: 50%;
+  }
+}
+
+.hero-right {
+  display: none;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .hero-right {
+    display: flex;
+    height: 50%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-right {
+    height: 33.333333%;
+    width: 33.333333%;
   }
 }
 
@@ -932,8 +953,8 @@ html {
 .about-container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 14rem;
   margin-bottom: 2rem;
+  margin-top: 14rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1051,7 +1072,8 @@ html {
 /* Plans Section */
 
 .plan-container {
-  margin-top: 5rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1197,4 +1219,25 @@ html {
   background-color: transparent;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+/* Footer */
+
+.footer {
+  max-width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.footer-h {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
 }
