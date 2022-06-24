@@ -53,7 +53,6 @@ html {
 
 body {
   margin: 0;
-  padding-bottom: 25px;
   /* 1 */
   line-height: inherit;
   /* 2 */
@@ -573,12 +572,12 @@ html {
   line-height: 2rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
-  text-shadow: 0 0 20px #34d399;
+  color: rgb(33 120 234 / var(--tw-text-opacity));
+  text-shadow: 0 0 20px #2178ea;
 }
 
 .glow {
-  text-shadow: 0 0 20px #34d399;
+  text-shadow: 0 0 20px #2178ea;
 }
 
 .background {
@@ -593,7 +592,7 @@ html {
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
+  color: rgb(33 120 234 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -607,7 +606,7 @@ html {
   border-width: 1px;
   border-color: transparent;
   --tw-bg-opacity: 1;
-  background-color: rgb(52 211 153 / var(--tw-bg-opacity));
+  background-color: rgb(33 120 234 / var(--tw-bg-opacity));
   padding: 0.5rem;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -620,10 +619,10 @@ html {
 
 .solid-btn:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(52 211 153 / var(--tw-border-opacity));
+  border-color: rgb(33 120 234 / var(--tw-border-opacity));
   background-color: transparent;
   --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
+  color: rgb(33 120 234 / var(--tw-text-opacity));
 }
 
 .paragraph-grey {
@@ -673,7 +672,7 @@ html {
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
+  color: rgb(33 120 234 / var(--tw-text-opacity));
 }
 
 .hbbutton-mobile {
@@ -687,7 +686,7 @@ html {
 
 .hbbutton-mobile:hover {
   --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
+  color: rgb(33 120 234 / var(--tw-text-opacity));
 }
 
 /* Hamburger */
@@ -790,7 +789,7 @@ html {
 .hero-container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 13rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -869,7 +868,7 @@ html {
   line-height: 2.5rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
+  color: rgb(33 120 234 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -881,7 +880,7 @@ html {
 }
 
 .hero-fission {
-  text-shadow: 0 0 40px #34d399;
+  text-shadow: 0 0 40px #2178ea;
 }
 
 .hero-button {
@@ -984,8 +983,8 @@ html {
   font-weight: 700;
   text-transform: uppercase;
   --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
-  text-shadow: 0 0 20px #34d399;
+  color: rgb(33 120 234 / var(--tw-text-opacity));
+  text-shadow: 0 0 20px #2178ea;
 }
 
 /* Why Us Sub Section */
@@ -1128,11 +1127,18 @@ html {
   }
 }
 
+.plan-h {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .plan-best {
   --tw-bg-opacity: 1;
-  background-color: rgb(52 211 153 / var(--tw-bg-opacity));
+  background-color: rgb(33 120 234 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .plan-best:hover {
@@ -1165,17 +1171,17 @@ html {
 
 .plan-btn-col {
   --tw-bg-opacity: 1;
-  background-color: rgb(52 211 153 / var(--tw-bg-opacity));
+  background-color: rgb(33 120 234 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .plan-btn-col:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(52 211 153 / var(--tw-border-opacity));
+  border-color: rgb(33 120 234 / var(--tw-border-opacity));
   background-color: transparent;
   --tw-text-opacity: 1;
-  color: rgb(52 211 153 / var(--tw-text-opacity));
+  color: rgb(33 120 234 / var(--tw-text-opacity));
 }
 
 .plan-btn-best {
