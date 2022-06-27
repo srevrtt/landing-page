@@ -5,6 +5,7 @@ module.exports = {
         colors: {
           "primary" : "#2178ea",
           "background" : "#0f172a",
+          "footer" : "#121c36",
         }
       },
     },
