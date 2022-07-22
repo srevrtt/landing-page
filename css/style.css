@@ -603,14 +603,62 @@ html {
   border-color: transparent;
   --tw-bg-opacity: 1;
   background-color: rgb(33 120 234 / var(--tw-bg-opacity));
-  padding: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
+  transition-duration: 500ms;
+  transition-delay: 0ms;
+  transition-timing-function: ease;
+  margin-left: 22vw;
+}
+
+@media (max-width: 1725px) {
+  .solid-btn {
+    margin-left: 21vw;
+  }
+}
+
+@media (max-width: 1025px) {
+  .solid-btn {
+    margin-left: 43vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .solid-btn {
+    margin-left: 41vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .solid-btn {
+    margin-left: 36.5vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .solid-btn {
+    margin-left: 37.5vw;
+  }
+}
+
+@media (max-width: 415px) {
+  .solid-btn {
+    margin-left: 32vw;
+  }
+}
+
+@media (max-width: 300px) {
+  .solid-btn {
+    margin-left: 25vw;
+  }
 }
 
 .solid-btn:hover {
@@ -1315,4 +1363,17 @@ html {
   width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
 }
