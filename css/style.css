@@ -1383,3 +1383,16 @@ html {
   --tw-text-opacity: 1;
   color: rgb(90 90 255 / var(--tw-text-opacity));
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e9e9e9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
