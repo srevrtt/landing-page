@@ -3,15 +3,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #333;
+  background: none;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #444;
+  border-radius: 6px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #444;
+  background: #555;
 }
